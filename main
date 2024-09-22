@@ -1,0 +1,94 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        int intOperandA = 1;
+        int intOperandB = 8;
+        int intSum = 29;
+        int intProduct = 84;
+        int intDifference = 74;
+        int intQuotient = 28;
+        int intModulo = 47;
+
+        double doubleOperandA = 2.43;
+        double doubleOperandB = 5.34;
+        double doubleSum = 6.32;
+        double doubleProduct = 9.32;
+        double doubleDifference = 4.37;
+        double doubleQuotient = 2.83;
+        double doubleModulo = 8.62;
+
+        intSum = intOperandA + intOperandB;
+
+        intProduct = intOperandA * intOperandB;
+
+        intDifference = intOperandA - intOperandB;
+
+        intQuotient = intOperandA / intOperandB;
+
+        intModulo = intOperandA % intOperandB;
+
+        System.out.println("The sum using ints of " + intOperandA + " " +
+                intOperandB + " is " + intSum); // Output statement
+
+        System.out.println("The Product using ints of " + intOperandA + " " +
+                intOperandB + " is " + intProduct);
+
+        System.out.println("The Difference using ints of " + intOperandA + " " +
+                intOperandB + " is " + intDifference);
+
+        System.out.println("The Quotient using ints of " + intOperandA + " " +
+                intOperandB + " is " + intQuotient);
+
+        System.out.println("The Modulo using ints of " + intOperandA + " " +
+                intOperandB + " is " + intModulo);
+
+        doubleSum = doubleOperandA + doubleOperandB;
+
+        doubleProduct = doubleOperandA * doubleOperandB;
+
+        doubleDifference = doubleOperandA - doubleOperandB;
+
+        doubleQuotient = doubleOperandA / doubleOperandB;
+
+        doubleModulo = doubleOperandA % doubleOperandB;
+
+        System.out.println("The sum using doubles of " + doubleOperandA + " " +
+                doubleOperandB + " is " + doubleSum); // Output statement
+
+        System.out.println("The Product using doubles of " + doubleOperandA + " " +
+                doubleOperandB + " is " + doubleProduct);
+
+        System.out.println("The Difference using doubles of " + doubleOperandA + " " +
+                doubleOperandB + " is " + doubleDifference);
+
+        System.out.println("The Quotient using doubles of " + doubleOperandA + " " +
+                doubleOperandB + " is " + doubleQuotient);
+
+        System.out.println("The Modulo using doubles of " + doubleOperandA + " " +
+                doubleOperandB + " is " + doubleModulo);
+
+        //the number of kids in your family:
+        int numKids = 4;
+        System.out.println("I have " + numKids + " in my family");
+        //the answer to is it raining?:
+        boolean rainCheck = false;
+        System.out.println("The answer to; is it raining? is " + rainCheck);
+        //the price of a gallon of gas:
+        double gasPrice = 3.25;
+        System.out.println("The price of gas is $" + gasPrice);
+        //your favorite number:
+        int favNumb = 22;
+        System.out.println("My favorite number is " + favNumb);
+        //your shoe size:
+        int shoeSize = 12;
+        System.out.println("My shoe size is " + shoeSize);
+        //your birth month:
+        String birthMonth = "Decemeber";
+        System.out.println("My birth month is " + birthMonth);
+        //your full name:
+        String myFullName = "Owen Herzog";
+        System.out.println("My full name is " + myFullName);
+
+    }
+}
